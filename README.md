@@ -10,3 +10,4 @@ Assumptions:
 ![Simulator Screenshot - iPhone 15 Pro - 2024-06-23 at 17 16 56](https://github.com/ak424/MovieSearchIOS/assets/70092568/c6f13552-5275-4f6e-b3b3-42998ab53776)
 ![Simulator Screenshot - iPhone 15 Pro - 2024-06-23 at 17 17 06](https://github.com/ak424/MovieSearchIOS/assets/70092568/5ee148f7-dd74-4c38-a933-e5119670a8d4)
 ![Simulator Screenshot - iPhone 15 Pro - 2024-06-23 at 17 54 16](https://github.com/ak424/MovieSearchIOS/assets/70092568/a7c73f13-bc46-4a5e-90a6-d1d2a4e75b80)
+![Simulator Screenshot - iPhone 15 Pro - 2024-06-23 at 18 22 05](https://github.com/ak424/MovieSearchIOS/assets/70092568/87ebf14f-6f97-4ce4-b51a-a1c50bb6cfe1)
