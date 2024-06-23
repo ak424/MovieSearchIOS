@@ -36,12 +36,19 @@ class MainViewController: ParentViewController {
                 guard let strongSelf = self else { return }
                 strongSelf.stopLoader(loader: loader)
                 guard let err = apiError else {
-                    strongSelf.movieCV.reloadData()
+                    if strongSelf.viewModel.movieList.isEmpty {
+                        strongSelf.emptyLabel.text = "Sorry, We could not\n find the result you\n are searching for"
+                        strongSelf.emptyView.isHidden = false
+                    }
+                    else {
+                        strongSelf.movieCV.reloadData()
+                    }
                     return
                 }
                 print(err.localizedDescription)
             }
         } else {
+            self.emptyLabel.text = "You can search\nfor movies here"
             self.emptyView.isHidden = false
         }
     }
@@ -151,4 +158,3 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
         }
     }
 }
-
